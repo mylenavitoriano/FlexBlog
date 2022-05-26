@@ -1,0 +1,46 @@
+.menu-bg{
+    background-color: $color-primary;
+
+    .menu{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 15px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            color: #FFF;
+        }
+
+        .menu-logo{
+            font-size: 2.25em;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        nav{
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+    
+                a{
+                    font-size: 1.25em;
+                    display: block;
+                    padding: 10px;
+                    transition: all ease .3s;
+    
+                    &:hover{
+                        color: $color-dark;
+                    }
+                }
+            }
+        }
+
+
+
+        
+
+    }
+}

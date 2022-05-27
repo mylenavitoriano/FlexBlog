@@ -4,6 +4,9 @@ $color-primary: #2c70ff;
 $color-secundary: #122ab2;
 $color-dark: #222222;
 $gray: #a4a4a4;
+$purple: #ae81ff;
+$pink: #f9265e;
+$blue: #66d9eb;
 
 *{
     margin: 0;
@@ -51,3 +54,12 @@ img{
 
 //preco
 @import 'preco';
+
+//qualidade
+@import 'qualidade';
+
+//newsletter
+@import 'newsletter';
+
+//footer
+@import 'footer';
